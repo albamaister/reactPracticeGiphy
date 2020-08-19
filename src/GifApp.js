@@ -4,7 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifApp = () => {
 
-    const [categories, setCategories] = useState(['Hentai']);
+    const [categories, setCategories] = useState(['']);
 
     return (
         <div>

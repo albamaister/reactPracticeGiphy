@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+
 
 export const GifGridItem = ({image}) => {
 
     const {id, title, url} = image;
     return (
-        <div>
+        <div className='card'>
             <img src={url} alt={title}/> 
             <p>{title}</p>
         </div>

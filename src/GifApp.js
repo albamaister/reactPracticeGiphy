@@ -9,8 +9,7 @@ export const GifApp = () => {
     return (
         <div>
             <h2>GifApp</h2>
-            <CategoryAdd setCategories={setCategories} categories={categories}/>
-            <hr/>            
+            <CategoryAdd setCategories={setCategories} categories={categories}/>                    
             <ol>
                 {categories.map((category) => <GifGrid key={category} category={category}/>)}
             </ol>
